@@ -1,0 +1,232 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.text-right {
+  float: right;
+  cursor: pointer;
+}
+.text-left {
+  float: left;
+}
+
+.panel-warning > .panel-heading {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.panel-heading {
+  padding: 10px 2px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.panel-body {
+  border: 1px solid #faebcc;
+}
+
+.heading {
+  color: rgb(255, 192, 209);
+  border: 2px solid pink;
+  border-radius: 5px;
+}
+.btn-warning {
+  color: #fff !important;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.label-info {
+  background-color: #5bc0de;
+  color: white;
+  padding: 0.2em 0.6em 0.3em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+.sort::after {
+  content: "\F00C";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px -10px;
+  display: inline-block;
+}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 16px;
+}
+.dropdown-menu .fa:before {
+  padding-right: 10px;
+}
+.h3,
+h3 {
+  font-size: 1rem;
+}
+.head {
+  color: rgb(247, 9, 49);
+}
+.sort_selected::after {
+  content: "\F00C";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 30px 0px 10px;
+  display: inline-block;
+}
+
+.search {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search2 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.hoverX:hover {
+  color: red;
+}
+.fa-check:before {
+  content: "\f00c";
+}
+.canchinh {
+  /* margin-right: 685px; */
+  display: block;
+  margin-bottom: 1em;
+}
+
+.fil {
+  display: flex;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------------------------- */
+
+@-webkit-keyframes my {
+  0% {
+    color: purple;
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: purple;
+  }
+}
+@-moz-keyframes my {
+  0% {
+    color: purple;
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: purple;
+  }
+}
+@-o-keyframes my {
+  0% {
+    color: purple;
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: purple;
+  }
+}
+@keyframes my {
+  0% {
+    color: purple;
+  }
+  50% {
+    color: #fff;
+  }
+  100% {
+    color: purple;
+  }
+}
+.test {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: 1px;
+  -webkit-animation: my 700ms infinite;
+  -moz-animation: my 700ms infinite;
+  -o-animation: my 700ms infinite;
+  animation: my 700ms infinite;
+}
